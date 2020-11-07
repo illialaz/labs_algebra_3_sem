@@ -57,7 +57,7 @@ class Matrix:
             return (tMatrix, replaces, tResult)
         else:
             return (tMatrix, replaces)
-    
+
     #решение СЛУ
     @staticmethod
     def _solveSystem(matrix,f):
